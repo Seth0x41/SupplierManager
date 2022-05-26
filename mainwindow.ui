@@ -1318,7 +1318,7 @@ QDateEdit::down-arrow:focus
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>5</number>
     </property>
     <widget class="QWidget" name="tab_3">
      <attribute name="title">
@@ -1669,7 +1669,7 @@ QDateEdit::down-arrow:focus
        <string>انت بإنتظار</string>
       </property>
      </widget>
-     <widget class="QTableWidget" name="tableWidget_2">
+     <widget class="QTableWidget" name="wating_product_taple">
       <property name="geometry">
        <rect>
         <x>110</x>
@@ -1746,7 +1746,7 @@ QDateEdit::down-arrow:focus
        </property>
       </column>
      </widget>
-     <widget class="QComboBox" name="comboBox">
+     <widget class="QComboBox" name="Wating_product_name_comboBox">
       <property name="geometry">
        <rect>
         <x>906</x>
@@ -1809,7 +1809,7 @@ QDateEdit::down-arrow:focus
        <string>تفاصيل منتج معين:</string>
       </property>
      </widget>
-     <widget class="QTableWidget" name="tableWidget_3">
+     <widget class="QTableWidget" name="Wating_Spacific_product_taple">
       <property name="geometry">
        <rect>
         <x>110</x>
@@ -1898,7 +1898,7 @@ QDateEdit::down-arrow:focus
        </property>
       </column>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="Wating_Products_fetch_data_pushButton">
       <property name="geometry">
        <rect>
         <x>790</x>
@@ -2545,7 +2545,7 @@ QDateEdit::down-arrow:focus
        <string>تم استلام منتج جديد</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="quantityrecEditLine">
+     <widget class="QLineEdit" name="Recived_Quantity_EditLine">
       <property name="geometry">
        <rect>
         <x>530</x>
@@ -2576,7 +2576,7 @@ QDateEdit::down-arrow:focus
        <string>الكمية</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButtonRecProduct">
+     <widget class="QPushButton" name="Push_Button_Recive_Product">
       <property name="geometry">
        <rect>
         <x>570</x>
@@ -2597,7 +2597,7 @@ QDateEdit::down-arrow:focus
        <string>تأكيد</string>
       </property>
      </widget>
-     <widget class="QComboBox" name="recProductcomboBox">
+     <widget class="QComboBox" name="recive_Product_comboBox">
       <property name="geometry">
        <rect>
         <x>530</x>
@@ -2631,7 +2631,7 @@ QDateEdit::down-arrow:focus
        <string>المنتج</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="OperationCodeEditLine_2">
+     <widget class="QLineEdit" name="OperationCode_EditLine">
       <property name="geometry">
        <rect>
         <x>530</x>
@@ -2690,7 +2690,7 @@ QDateEdit::down-arrow:focus
        <enum>Qt::RightToLeft</enum>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="tab_8">
        <attribute name="title">
@@ -3009,183 +3009,6 @@ QDateEdit::down-arrow:focus
         </property>
        </widget>
       </widget>
-      <widget class="QWidget" name="tab_11">
-       <attribute name="title">
-        <string>تعديل عملية</string>
-       </attribute>
-       <widget class="QLabel" name="label_32">
-        <property name="geometry">
-         <rect>
-          <x>830</x>
-          <y>340</y>
-          <width>111</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Dubai</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>تغيير المنتج</string>
-        </property>
-       </widget>
-       <widget class="QComboBox" name="comboBox_5">
-        <property name="geometry">
-         <rect>
-          <x>530</x>
-          <y>220</y>
-          <width>291</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="quantityrecEditLine_2">
-        <property name="geometry">
-         <rect>
-          <x>530</x>
-          <y>280</y>
-          <width>291</width>
-          <height>41</height>
-         </rect>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_31">
-        <property name="geometry">
-         <rect>
-          <x>830</x>
-          <y>220</y>
-          <width>111</width>
-          <height>21</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Dubai</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>تغيير المورد</string>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="pushButtonRecProduct_2">
-        <property name="geometry">
-         <rect>
-          <x>580</x>
-          <y>400</y>
-          <width>211</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Dubai</family>
-          <pointsize>9</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>تعديل</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_30">
-        <property name="geometry">
-         <rect>
-          <x>830</x>
-          <y>280</y>
-          <width>111</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Dubai</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>تعديل الكمية</string>
-        </property>
-       </widget>
-       <widget class="QComboBox" name="recProductcomboBox_2">
-        <property name="geometry">
-         <rect>
-          <x>530</x>
-          <y>340</y>
-          <width>291</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::RightToLeft</enum>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_47">
-        <property name="geometry">
-         <rect>
-          <x>840</x>
-          <y>160</y>
-          <width>101</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Dubai</family>
-          <pointsize>12</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>رقم العملية</string>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="OperationCodeEditLine_3">
-        <property name="geometry">
-         <rect>
-          <x>530</x>
-          <y>160</y>
-          <width>291</width>
-          <height>41</height>
-         </rect>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_33">
-        <property name="geometry">
-         <rect>
-          <x>590</x>
-          <y>50</y>
-          <width>191</width>
-          <height>61</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Dubai</family>
-          <pointsize>20</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>تعديل عملية</string>
-        </property>
-       </widget>
-      </widget>
       <widget class="QWidget" name="tab_12">
        <attribute name="title">
         <string>حذف</string>
@@ -3361,7 +3184,7 @@ QDateEdit::down-arrow:focus
          <enum>Qt::RightToLeft</enum>
         </property>
        </widget>
-       <widget class="QLabel" name="label_40">
+       <widget class="QLabel" name="Generated_Code_label">
         <property name="geometry">
          <rect>
           <x>140</x>
